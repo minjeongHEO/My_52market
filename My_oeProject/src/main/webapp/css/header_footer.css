@@ -1,0 +1,309 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Readex+Pro:wght@210&display=swap');
+/* outline:1px dotted red;  */
+/* padding-top: 170px;(header#main_header + nav.nav2 ) */
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Noto Sans KR', sans-serif, "굴림";
+	} 
+
+a:hover{
+	text-decoration:underline;
+	color:#999999;
+	text-shadow: 0px 2px 7px #bdf4e1;
+}
+
+header#main_header{
+	width:100%;height:120px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	text-decoration:none;
+	background-color:#2C3E50;
+	opacity:0.95;
+	text-align:right;
+	position:fixed;  
+	z-index:9999;
+}
+header#main_header a{
+	margin:0 30px 0 0; /* 상우하좌 */
+}
+
+
+span#menu_logout{
+	color:white;
+}
+
+header#main_header .btn-search{
+background-color:#18BC9C;/* 오이그린 */
+color:white;
+color:#18BC9C;
+}
+
+header#main_header button#search_btn{
+	margin:0 40px 0 0; /* 상우하좌 */
+}
+
+div.header a:link{
+	text-decoration:none;
+	color:#ffffff;
+}
+div.second-menu a#cate_name_menu{
+	text-decoration:none;
+	color:#18BC9C;
+}
+
+div.header a.dropdown:link{
+	text-decoration:none;
+	color:#000000;
+}
+
+div.header nav.nav2{
+	padding-top: 120px;
+	background:#32C4A7;
+	color:white;
+	font-size:10pt;
+	font-weight:580;
+	height:40px;
+	position:fixed;  
+}
+div.header nav#second_menu{
+	padding-top: 120px;
+	width:100%;
+	background-color:#18BC9C !important;
+		
+	/* color:#18BC9C; */
+	/* text-align:center; */
+	z-index:999;
+	/* color:white; */
+	position:fixed; 
+}
+.navbar-nav {
+    color: #18BC9C;/* 오이그린 */
+}
+
+	nav.main-menu ul li{
+		list-style: none;
+		display:inline-block;
+		font-size:10pt;
+		vertical-align: middle;
+		text-align:center;}	 
+	nav li#search{
+		list-style: none;
+		display:inline-block;
+		vertical-align: middle;
+		text-align:center;}	
+
+li#nav1{
+	/* outline:1px dotted red;  */
+	margin-left:520px;
+	text-align:center;
+	width:100px;
+}
+li#nav2{
+	/* outline:1px dotted red;  */
+	margin-left: 70px;
+	text-align:center;
+	width:100px;
+}
+li#nav3{
+	/* outline:1px dotted red; */ 
+	margin-left: 70px;
+	text-align:center;
+	width:100px;
+}
+li#nav4{
+	/* outline:1px dotted red; */ 
+	margin-left: 70px;
+	text-align:center;
+	width:100px;
+}
+li#nav5{
+	/* outline:1px dotted red;  */
+	margin-left: 70px;
+	text-align:center;
+	width:100px;
+}
+li#nav6{
+	/* outline:1px dotted red;  */
+	margin-left: 70px;
+	text-align:center;
+	width:100px;
+}
+
+/* ----------------메인----------------- */
+	section.main a:hover{
+	 	text-decoration: underline;
+	 	color: #18BC9C;/* 오이그린 */
+	 	}
+	
+
+		
+/* ---------------- priority--------------- */	
+	.logo-txt :hover{
+	text-decoration:none;
+	text-shadow: 2px 2px 6px gray;
+	color:#18BC9C;
+}
+
+/* .navbar-toggle {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+} */
+
+/* 상 우 하 좌/상 좌우 하/상하 좌우 */
+/* div.header{
+	margin:0 100px 0 0;
+}
+ */
+	 
+/* ----------------footer 메뉴--------------- */
+
+footer#page_footer {
+/* 	outline:2px dotted yellow; */
+	margin:100px 0 0 0;
+	background-color:#18BC9C;/* 오이그린 */
+	background: linear-gradient( #18BC9C,#18BC9C,white);
+	clear:both;
+	height:340px;
+}
+
+.rounded {
+	clear:both;
+	width:270px;		
+	height:220px;
+	border: solid thin white;
+	border-radius:50px;
+	background-color:#93aedb;
+	
+	color:white;
+	text-align:center;
+	font-family:Arial;
+	font-size:13pt;
+}
+
+footer div#footer_main{
+	/* outline:1px dotted red;  */
+	padding: 40px 50px 100px 230px; 
+	float: left; width: 35%;
+	/* margin: 100px 0 0 30%; */
+	margin: 0 100px 0 200px;
+	width:400px;
+	height:180px;
+	text-align:left;
+	vertical-align:center;
+	text-decoration:none;
+	
+	/* 상 우 하 좌 / 상 좌우 하 / 상하 좌우 */
+	
+}
+footer div#footer_main p {	
+	/* outline: 1px dotted red; */
+	font-size:18pt;
+	float:left;
+	color:#d2fc8d;
+	padding:0 0 0 0;
+}
+
+footer div#footer_main div{
+	/* outline:1px dotted red;  */
+	font-size:30pt;
+	font-weight:bold;
+	clear:both;
+	font-weight:bold;
+	color:white;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	width: 200px;
+	
+}
+div[class*=foot] ul{
+		list-style:none;
+		text-align:left;
+		color:#1D1D1F;	 
+	}
+	a[class=foot]{
+	color:#1D1D1F;
+	}
+	a[class=foot]:hover{
+	 	text-decoration: underline;
+	 	}
+	li[class=foot]{
+	color:white;
+	list-style:none;
+	}
+	
+	div.foot01{	
+		/* outline:1px dotted red;  */
+	 	/* float: left; width: 50%; */
+		
+		/* width:200px;
+		top:25%;
+		float:left;
+		position: relative; */
+		/* 상 우 하 좌/상 좌우 하/상하 좌우 */
+		margin:0 0 0 40px; 
+	}
+	div.foot02 {	
+		/* outline:1px dotted red; */ 
+		float: left; width: 300px;
+		padding:0 100px 0 0;
+		/* width:200px;
+		top:13%;
+		float:left;
+		margin:0 0 0 20%; 
+		position: relative; */
+		/* 상 우 하 좌/상 좌우 하/상하 좌우 */
+	}
+	div.foot03{
+		/* outline:1px dotted red;  */
+		float: left; width: 300px;
+		padding:0 100px 0 0;
+		/* width:200px;
+		clear:both;
+		left:11%;
+		top:30%;
+		margin:0 0 0 20%; 
+		position: relative; */
+		/* 상 우 하 좌/상 좌우 하/상하 좌우 */
+	}
+	div.foot04{
+		/* outline:1px dotted red;  */
+		float: left; width: 300px;
+		padding:0 100px 0 0;
+		/*clear:both;
+		left:11%;
+		top:30%;
+		margin:0 0 0 20%; 
+		position: relative; */
+		/* 상 우 하 좌/상 좌우 하/상하 좌우 */
+	} 
+div.foot01{
+display:inline-block;
+}
+
+div.header a:visited{
+	text-decoration:none;
+	color:black;
+	color:#ffffff;
+}
+
+footer#page_footer li{
+	padding:5px 0 10px 0;
+}
+
+div.footer-end p{
+	font-size: 11px;
+	text-align:center;
+}
+
+div.foorter-end hr{
+height : 1px; /* 선의 두께 (1xp 이상) */
+border: 0 none; /* 테두리를 없애도록 처리함 */
+color : #ccc; /* 테두리를 없앴지만 혹시 모르니 라인 색상을 깔맞춤 하기 위하여 마크업 */
+background-color: #ccc; /* 선의 색상 */
+width:200px;
+}
+
+
